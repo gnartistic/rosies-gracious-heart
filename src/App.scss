@@ -1,3 +1,19 @@
+$primary-color: #573886;
+
+// css animations
+@import 'animate.css';
+
+// fonts
+@font-face {
+  font-family: 'CoolveticaRg';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'Helvetica-neu';
+  src: url('./assets/fonts/helvetica-neu.ttf') format("truetype");
+}
+
 .App {
   text-align: center;
 }
