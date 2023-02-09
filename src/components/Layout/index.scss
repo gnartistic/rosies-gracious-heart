@@ -1,3 +1,4 @@
+// home page styling
 .home-container {
 
     .hero-container {
@@ -6,13 +7,54 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
         h1 {
             font-family: 'CoolveticaRg';
             letter-spacing: 1px;
             font-weight: 100;
             font-size: 62px;
             color: #fefefe;
+        }
+    }
+
+    .page-container {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+
+        .mission-statement {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 975px;
+
+            .mission-logo {
+                img {
+                    width: 355px;
+                    padding-right: 30px;
+                }
+            }
+
+            .statement-text {
+                display: flex;
+                flex-direction: column;
+                font-weight: 400;
+                justify-content: center;
+                align-items: center;
+                line-height: 30px;
+                font-size: 18px;
+
+                h2 {
+                        color: #7a609b;
+                        font-size: 30px;
+                        padding: 20px;
+                    }
+
+                .bold-text {
+                    font-weight: bold;
+                }
+            }
         }
     }
 }
