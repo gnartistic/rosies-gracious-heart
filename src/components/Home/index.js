@@ -75,6 +75,13 @@ const Home
                                 <NavLink exact='true' to='resources' className='resources-button'>Resources</NavLink>
                             </div>
                         </div>
+
+                        {/* take action section */}
+                        <div className='take-action-section'>
+                            <h1>Take Action</h1>
+                            <h3>Ready to take the next step? You can become a contributor to our cause, or participate yourself.</h3>
+                            <NavLink exact='true' to='takeAction'>Find out how</NavLink>
+                        </div>
                     </div>
                 </div>
             </>
