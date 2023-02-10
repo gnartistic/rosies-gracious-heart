@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/images/rosie-logo-rg.png'
+import rosie from '../../assets/images/rosie-portrait.jpeg'
 
 const Home
     = () =>
@@ -25,6 +26,23 @@ const Home
                                 We have provided Easter, Back-to-school, and Christmas events for the residents of Mission Road Development Center for the past four years.
 
                             </p>
+                        </div>
+
+                        <div className='about-summary'>
+                            <img alt='Portrait of Rosie' src={rosie} />
+                            <div className='about-text'>
+                                <p>
+                                    <h2>About</h2>
+
+                                    <span className='italic'>Rosie's Gracious Heart</span> is a dream that came to mind in November of 2016 after the tragic pssing of my mom, Rosie.
+                                    <br />
+                                    <br />
+                                    She had worked with children with special needs for over 30 years for Northside Independant School District in San Antonio, Tx. Rosie had a servant's heart, always giving of her time, showing compassion to the children she worked with as well as others. After retiring from Northside Independant School District, she went to work as a two-year-old teacher at Castle Hills Learning Center, and lastly worked as a door greeter at Wal-mart where her heart would shine through her smile. She made friends with everyone she met, she loved life, and now her heart continues to live on through the blessings that are shared through this organization.
+                                    <br />
+                                    <br />
+                                    We may have lost her physically, but her memory and legacy will live on with <span className='italic'>Rosie's Gracious Heart</span>.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
