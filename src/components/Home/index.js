@@ -1,6 +1,9 @@
 import React from 'react'
 import logo from '../../assets/images/rosie-logo-rg.png'
 import rosie from '../../assets/images/rosie-portrait.jpeg'
+import groupPhoto from '../../assets/images/group-photo-1.jpeg'
+import planner from '../../assets/images/planner.jpeg'
+import { NavLink } from 'react-router-dom'
 
 const Home
     = () =>
@@ -11,7 +14,9 @@ const Home
                     <div className='hero-container'>
                         <h1 className='title'>Rosie's Gracious Heart</h1>
                     </div>
+
                     <div className='page-container'>
+                        {/* mission statement */}
                         <div className='mission-statement'>
                             <div className='mission-logo'>
                                 <img alt="Rosie's Gracious Heart logo" src={logo} />
@@ -28,6 +33,7 @@ const Home
                             </p>
                         </div>
 
+                                {/* About summary */}
                         <div className='about-summary'>
                             <img alt='Portrait of Rosie' src={rosie} />
                             <div className='about-text'>
@@ -42,6 +48,31 @@ const Home
                                     <br />
                                     We may have lost her physically, but her memory and legacy will live on with <span className='italic'>Rosie's Gracious Heart</span>.
                                 </p>
+                            </div>
+                        </div>
+                    
+                        {/* upcoming events section */}
+                        <div className='events-display'>
+                            <div className='events'>
+                                <h2>Events</h2>
+                                <h3>
+                                    Check our page for upcoming events and activities.
+                                </h3>
+                                <NavLink exact='true' to='activities' className='events-button'>See Events</NavLink>
+                            </div>
+                            <div className='img-container'>
+                                <img alt='planner with various random dates circled' src={planner} />
+                            </div>
+                        </div>
+                        {/* resources section */}
+                        <div className='resources-display'>
+                            <div className='img-container2'>
+                                <img alt='organization members' src={groupPhoto}/>
+                                </div>
+                            <div className='resources'>
+                                <h2>Resources</h2>
+                                <h3>We distribute resources on a monthly or as-needed basis. Check here for anouncements on distribution.</h3>
+                                <NavLink exact='true' to='resources' className='resources-button'>Resources</NavLink>
                             </div>
                         </div>
                     </div>

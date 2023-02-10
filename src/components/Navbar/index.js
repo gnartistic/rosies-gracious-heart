@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.scss'
 import { NavLink } from 'react-router-dom'
-import whiteLogo from '../../assets/images/rosie-logo-white.png'
+import whiteLogo from '../../assets/images/rosie-logo-rg.png'
 
 const Navbar = () =>
 {
