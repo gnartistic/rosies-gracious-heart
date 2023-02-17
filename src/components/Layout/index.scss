@@ -256,3 +256,107 @@
         }
     }
 }
+
+.about-page {
+    .hero {
+        background-image: url(../../assets/images/hero-bg-2.jpeg);
+        height: 300px;
+    }
+
+    .about-container {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .about-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+
+            .text-container {
+                width: 950px;
+                text-align: left;
+
+                p {
+                    line-height: 35px;
+                    font-size: 21px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    width: 850px;
+
+                    h2 {
+                        color: #7a609b;
+                        font-size: 30px;
+                        padding: 20px;
+                        font-family: 'CoolveticaRg';
+                        letter-spacing: 1.5px;
+                    }
+
+                    .italic-text {
+                        font-style: italic;
+                    }
+                }
+
+            }
+
+            img {
+                height: 550px;
+                width: 450px;
+                object-fit: cover;
+                object-position: 100% 25%;
+                float: right;
+                margin: 110px 0 20px 20px;
+            }
+        }
+
+        .mission-statement {
+            width: 950px;
+            font-size: 18px;
+
+            line-height: 35px;
+
+            p {
+                font-size: 18px;
+
+                line-height: 35px;
+
+                .italic-text {
+                    font-style: italic;
+                }
+            }
+        }
+
+        .links {
+            a {
+            display: flex;
+            text-decoration: none;
+            margin: 0px 15px 0px 15px;
+            font-family: 'Arial';
+            font-weight: bold;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            color: black;
+            transition: transform .2s;
+
+            &:hover {
+                transform: scale(1.1);
+                color: #fefefe;
+            }
+
+            .action-button {
+                border: 2px solid #442f52;
+                border-radius: 30px;
+                padding: 12px 18px 12px 18px;
+                color: #442f52;
+
+                &:hover {
+                    color: #fefefe;
+                    background-color: #442f52;
+                }
+            }
+        }
+        }
+
+    }
+}
